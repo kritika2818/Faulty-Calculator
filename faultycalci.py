@@ -1,0 +1,30 @@
+fwd=input('d you want to use python calculator')
+while (ab=='yes'):
+	a=int(input('enter no1 \n'))
+	b=int(input('enter no2 \n'))
+	i=input('enter sign ')
+	if (i=='+'):
+			if (a==45 and b==3):
+				print('output =555')  #faulty
+			else:
+				print ('addition',a+b)
+	elif (i=='-'):
+		if (a==56 and b==9):
+				print('output =77')  #faulty
+		else:
+				print ('sub',a-b)
+	elif (i=='*'):
+		if (a==56 and b==6):
+			print('output = 4')		#faulty
+		else:
+			print ('mul',a*b)
+	elif (i=='/'):
+			print ('div',a/b)	
+	elif (i=='**'):
+			print ('power',a**b)	
+	elif (i=='%'):
+			print ('mod',a/b)	
+	else :
+		print('invalid operator')
+else:
+	print ('exit')
